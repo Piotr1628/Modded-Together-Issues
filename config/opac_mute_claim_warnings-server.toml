@@ -1,3 +1,0 @@
-[General]
-	#If enabled, claim warnings appear in the action bar. If disabled, they are hidden entirely.
-	showMessagesInActionBar = false
