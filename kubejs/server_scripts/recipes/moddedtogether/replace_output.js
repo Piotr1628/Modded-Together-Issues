@@ -15,3 +15,4 @@ ServerEvents.recipes((event) => {
 
   event.replaceOutput({ mod: 'scguns' }, 'scguns:niter_dust', 'eternal_starlight:saltpeter_powder');
 });
+
