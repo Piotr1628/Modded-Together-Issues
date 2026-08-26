@@ -13,6 +13,7 @@
 	id: "6C4C52A07F7688E4"
 	images: [{
 		height: 2.0d
+		id: "52D67AC92E7BD4F8"
 		image: "kubejs:textures/quests/titles/builders_essentials.png"
 		rotation: 0.0d
 		width: 17.0d
@@ -20,6 +21,8 @@
 		y: -5.75d
 	}]
 	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

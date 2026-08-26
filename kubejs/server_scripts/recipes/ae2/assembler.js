@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
     .itemInputs([
       'ae2:printed_engineering_processor',
       'ae2:printed_silicon',
-      'create_connected:control_chip',
+      'oritech:plastic_sheet',
       'minecraft:redstone',
     ])
     .itemOutputs('ae2:engineering_processor')
@@ -13,12 +13,7 @@ ServerEvents.recipes((event) => {
 
   event.recipes.oritech
     .assembler()
-    .itemInputs([
-      'ae2:printed_logic_processor',
-      'ae2:printed_silicon',
-      'create_connected:control_chip',
-      'minecraft:redstone',
-    ])
+    .itemInputs(['ae2:printed_logic_processor', 'ae2:printed_silicon', 'oritech:plastic_sheet', 'minecraft:redstone'])
     .itemOutputs('ae2:logic_processor')
     .time(400);
 
@@ -27,7 +22,7 @@ ServerEvents.recipes((event) => {
     .itemInputs([
       'ae2:printed_calculation_processor',
       'ae2:printed_silicon',
-      'create_connected:control_chip',
+      'oritech:plastic_sheet',
       'minecraft:redstone',
     ])
     .itemOutputs('ae2:calculation_processor')

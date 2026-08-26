@@ -1,0 +1,22 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "hazennstuff:runestone_slag"
+    }
+  ],
+  "results": [
+    {
+      "id": "hazennstuff:runestone_fragments"
+    },
+    {
+      "id": "hazennstuff:runestone_fragments",
+      "chance": 0.2
+    },
+    {
+      "id": "irons_spellbooks:arcane_essence",
+      "chance": 0.2
+    }
+  ],
+  "processing_time": 200
+}

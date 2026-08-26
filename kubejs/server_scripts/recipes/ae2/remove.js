@@ -19,7 +19,6 @@ ServerEvents.recipes((event) => {
     { id: 'ae2:materials/annihilationcore' },
     { id: 'ae2:network/cables/glass_fluix' },
     { id: 'ae2:network/parts/quartz_fiber_part' },
-    { id: 'ae2:inscriber/logic_processor_print' },
     { id: 'ae2:network/cables/covered_fluix' },
     { id: 'ae2:network/cells/item_storage_components_cell_1k_part' },
     { id: 'ae2:network/cells/item_storage_components_cell_4k_part' },
@@ -27,8 +26,6 @@ ServerEvents.recipes((event) => {
     { id: 'ae2:network/cells/item_storage_components_cell_64k_part' },
     { id: 'ae2:network/cells/item_storage_components_cell_256k_part' },
     { id: 'ae2:network/blocks/energy_energy_acceptor' },
-    { id: 'ae2:transform/entangled_singularity' },
-    { id: 'ae2:transform/entangled_singularity_from_pearl' },
   ];
 
   recipes.forEach((recipe) => {

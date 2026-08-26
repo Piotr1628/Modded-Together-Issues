@@ -13,13 +13,16 @@
 	id: "37F197E6DC492F0B"
 	images: [{
 		height: 2.0d
+		id: "4E73854E1D48C815"
 		image: "kubejs:textures/quests/titles/basic_storage.png"
 		rotation: 0.0d
 		width: 11.0d
 		x: 0.0d
 		y: -6.0d
 	}]
-	order_index: 4
+	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

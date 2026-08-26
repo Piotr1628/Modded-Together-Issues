@@ -1,6 +1,6 @@
 {
 	autofocus_id: "6A67EA9C70D23736"
-	default_hide_dependency_lines: true
+	default_hide_dependency_lines: false
 	default_min_width: 250
 	default_quest_shape: "pentagon"
 	filename: "familiars"
@@ -12,6 +12,7 @@
 	id: "390C78F65525C5E5"
 	images: [{
 		height: 2.0d
+		id: "584303412AC531E9"
 		image: "kubejs:textures/quests/titles/familiars.png"
 		rotation: 0.0d
 		width: 12.0d
@@ -19,14 +20,19 @@
 		y: -6.0d
 	}]
 	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["10008913EA0470F6"]
 			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			hide_until_deps_complete: false
 			icon_scale: 1.25d
 			id: "7A61DCA5D60B5A6E"
+			preset: "goal"
 			rewards: [
 				{
 					id: "000FD719BB306327"
@@ -71,7 +77,7 @@
 				}
 			]
 			x: 0.0d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["10008913EA0470F6"]
@@ -96,13 +102,14 @@
 				item: { count: 1, id: "alshanex_familiars:pet_bed" }
 				type: "item"
 			}]
-			x: -2.25d
+			x: -2.75d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3ACFD2EF49451E95"]
 			entity_vis_size: 1.0f
 			id: "369D66CACAEDE0D9"
+			preset: "info"
 			rewards: [{
 				count: 4
 				id: "1847B1E19E62E93F"
@@ -120,8 +127,8 @@
 				item: { count: 1, id: "alshanex_familiars:familiar_storage" }
 				type: "item"
 			}]
-			x: 3.75d
-			y: -0.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7A61DCA5D60B5A6E"]
@@ -279,10 +286,14 @@
 			y: -2.25d
 		}
 		{
-			dependencies: ["579E50D9449872AD"]
+			dependencies: [
+				"579E50D9449872AD"
+				"304B359A17D9DC8B"
+			]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "10008913EA0470F6"
+			preset: "goal"
 			rewards: [
 				{
 					count: 5
@@ -326,8 +337,8 @@
 				item: { count: 1, id: "alshanex_familiars:pandora_box" }
 				type: "item"
 			}]
-			x: -3.375d
-			y: 0.75d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7A61DCA5D60B5A6E"]
@@ -354,8 +365,8 @@
 				item: { count: 1, id: "alshanex_familiars:monocle" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -0.5d
+			x: -2.75d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -370,13 +381,14 @@
 				id: "2C8DE3C57CE9BED0"
 				type: "advancement"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: -2.75d
+			y: 1.5d
 		}
 		{
-			dependencies: ["7A61DCA5D60B5A6E"]
+			dependencies: ["10008913EA0470F6"]
 			entity_vis_size: 1.0f
 			id: "3ACFD2EF49451E95"
+			preset: "normal"
 			rewards: [{
 				id: "49F5C998A64831FF"
 				item: {
@@ -385,13 +397,14 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "257E3BC580A508C3"
 				item: { count: 1, id: "alshanex_familiars:shrinking_station" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.75d
+			x: 2.25d
+			y: 0.5d
 		}
 		{
 			dependencies: ["35FDACB27408FC07"]
@@ -430,13 +443,14 @@
 					type: "item"
 				}
 			]
-			x: -6.25d
-			y: 0.25d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3ACFD2EF49451E95"]
 			entity_vis_size: 1.0f
 			id: "6BE5A75F1CB8D1FA"
+			preset: "info"
 			rewards: [{
 				count: 4
 				id: "30DD0B1471304D6D"
@@ -467,13 +481,14 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 0.25d
+			x: 3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3ACFD2EF49451E95"]
 			entity_vis_size: 1.0f
 			id: "63E776C9321E9407"
+			preset: "info"
 			rewards: [{
 				id: "6054EB335FE18B41"
 				item: {
@@ -491,8 +506,8 @@
 				item: { count: 1, id: "alshanex_familiars:broken_shield" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.5d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["35FDACB27408FC07"]
@@ -515,13 +530,14 @@
 				item: { count: 1, id: "alshanex_familiars:strange_mushroom" }
 				type: "item"
 			}]
-			x: -6.25d
-			y: -1.25d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3ACFD2EF49451E95"]
 			entity_vis_size: 1.0f
 			id: "0C7809E3A8D4DD37"
+			preset: "info"
 			rewards: [{
 				count: 5
 				id: "18D5045A65C18D5D"
@@ -551,13 +567,14 @@
 					type: "item"
 				}
 			]
-			x: 2.25d
+			x: 3.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3ACFD2EF49451E95"]
 			entity_vis_size: 1.0f
 			id: "51D0F13982902EA5"
+			preset: "info"
 			rewards: [{
 				id: "56D522B5B7087964"
 				item: {
@@ -575,8 +592,8 @@
 				item: { count: 1, id: "alshanex_familiars:tiny_totem" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.25d
+			x: 4.5d
+			y: 1.0d
 		}
 	]
 }

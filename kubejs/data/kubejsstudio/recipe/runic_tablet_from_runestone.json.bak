@@ -1,0 +1,13 @@
+{
+  "type": "malum:runeworking",
+  "input": {
+    "item": "irons_spellbooks:blank_rune"
+  },
+  "secondaryInput": {
+    "item": "hazennstuff:deus_essence"
+  },
+  "result": {
+    "item": "simplyswords:runic_tablet"
+  },
+  "soundType": "malum:runic_workbench_shapes_tainted_rune"
+}

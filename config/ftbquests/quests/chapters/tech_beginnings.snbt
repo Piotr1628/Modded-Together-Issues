@@ -11,6 +11,7 @@
 	id: "101E511680EA70E5"
 	images: [{
 		height: 2.0d
+		id: "7CA794D8792AC764"
 		image: "kubejs:textures/quests/andesite_age.png"
 		rotation: 0.0d
 		width: 14.0d
@@ -18,6 +19,8 @@
 		y: -6.0d
 	}]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

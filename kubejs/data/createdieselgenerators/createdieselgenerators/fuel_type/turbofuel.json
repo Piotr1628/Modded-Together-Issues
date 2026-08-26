@@ -1,0 +1,20 @@
+{
+  "fluid": "oritech:still_fuel",
+  "sound_pitch": 1,
+  "normal": {
+    "speed": 112.0,
+    "strength": 4608.0,
+    "burn_rate": 0.045
+  },
+  "modular": {
+    "speed": 112.0,
+    "strength": 6912.0,
+    "burn_rate": 0.045
+  },
+  "huge": {
+    "speed": 256.0,
+    "strength": 13824.0,
+    "burn_rate": 0.045
+  },
+  "burner_multiplier": 1.15
+}

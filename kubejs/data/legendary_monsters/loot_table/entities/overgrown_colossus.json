@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "name": "nature_crystal",
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legendary_monsters:nature_crystal"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "name": "chlorophyte",
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hazennstuff:chlorophyte_chunk",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

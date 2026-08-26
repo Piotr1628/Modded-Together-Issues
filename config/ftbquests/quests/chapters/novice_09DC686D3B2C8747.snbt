@@ -2,7 +2,7 @@
 	autofocus_id: "6C950ED208A6728F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "novice_09DC686D3B2C8747"
+	filename: "novice_09dc686d3b2c8747"
 	group: "5CF4FC955D2F2DD3"
 	hide_quest_until_deps_complete: true
 	icon: {
@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "7D383BE2F1BAB8F2"
 			image: "ars_nouveau:textures/gui/schools/manipulation_tooltip.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 1.0d
+			id: "78A3EA50F34A6206"
 			image: "ars_nouveau:textures/gui/schools/abjuration_tooltip.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0B0AA017084F9631"
 			image: "ars_nouveau:textures/gui/schools/conjuration_tooltip.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -36,6 +39,7 @@
 		}
 		{
 			height: 1.0d
+			id: "223EACA7D448BF3F"
 			image: "ars_nouveau:textures/gui/schools/earth_tooltip.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -44,6 +48,7 @@
 		}
 		{
 			height: 2.0d
+			id: "0FF45183B23F5B4A"
 			image: "kubejs:textures/quests/titles/source_magic.png"
 			rotation: 0.0d
 			width: 14.0d
@@ -53,6 +58,8 @@
 	]
 	order_index: 1
 	progression_mode: "flexible"
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -1116,12 +1123,12 @@
 			shape: "circle"
 			tasks: [
 				{
-					id: "365C66C1AC604E6C"
-					item: { }
+					id: "3718DDAF5F4B973C"
+					item: { count: 1, id: "ars_elemental:flashpine_pod" }
 					type: "item"
 				}
 				{
-					id: "7022612A8B867593"
+					id: "4DF593579B38129B"
 					item: { count: 1, id: "ars_elemental:yellow_archwood_sapling" }
 					type: "item"
 				}
@@ -1503,7 +1510,7 @@
 			id: "45A8F3FAA1AA86C7"
 			tasks: [{
 				id: "67E3CB52BAC21359"
-				item: { count: 1, id: "ars_hex:enchanter_scythe" }
+				item: { components: { "ftbquests:missing_item": "ars_hex:enchanter_scythe" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -1703,8 +1710,8 @@
 			id: "0A87D7E0750AFD89"
 			shape: "diamond"
 			tasks: [{
-				id: "2ADC08063F91BC4F"
-				item: { components: { "ftbquests:missing_item": "kubejs:ice_essence" }, count: 1, id: "ftbquests:missing_item" }
+				id: "56905382EF7EC4C3"
+				item: { count: 1, id: "kubejs:ice_essence" }
 				type: "item"
 			}]
 			x: -1.0d

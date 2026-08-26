@@ -23,7 +23,7 @@
 			id: "6C739AE737B9B870"
 			item: {
 				count: 1
-				id: "apotheosis:epic_material"
+				id: "apotheosis:arcane_sands"
 			}
 		}
 		{ id: "07D769E50F8EC9D5", item: { components: { "apotheosis:gem": "apotheosis:core/ballast", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
@@ -76,7 +76,7 @@
 			id: "55D370A9EA8AA158"
 			item: {
 				count: 1
-				id: "apotheosis:mythic_material"
+				id: "apotheosis:godforged_pearl"
 			}
 		}
 		{
@@ -84,7 +84,7 @@
 			id: "3F76A2031139ADC7"
 			item: {
 				count: 1
-				id: "apotheosis:rare_material"
+				id: "apotheosis:luminous_crystal_shard"
 			}
 		}
 	]

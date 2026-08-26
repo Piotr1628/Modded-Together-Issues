@@ -1,0 +1,12 @@
+{
+  "type": "malum:runeworking",
+  "input": {
+    "item": "irons_spellbooks:blank_rune"
+  },
+  "secondaryInput": {
+    "item": "apotheosis:gem_dust"
+  },
+  "result": {
+    "item": "apotheosis:gem_fused_slate"
+  }
+}

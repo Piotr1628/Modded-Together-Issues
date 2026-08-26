@@ -1,0 +1,589 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "bonus_rolls": 0.0,
+      "name": "pool0",
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:arrows",
+          "expand": true,
+          "type": "minecraft:tag"
+        },
+        {
+          "name": "minecraft:music_discs",
+          "expand": true,
+          "weight": 5,
+          "type": "minecraft:tag"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "bonus_rolls": 0.0,
+      "name": "pool1",
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond",
+          "weight": 40,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 6.0,
+                "max": 18.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot",
+          "weight": 50,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 12.0,
+                "max": 24.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "weight": 20,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_block",
+          "weight": 5,
+          "type": "minecraft:item"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "name": "pool2",
+      "entries": [
+        {
+          "weight": 40,
+          "type": "minecraft:empty"
+        },
+        {
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 15.0,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_helmet",
+          "weight": 3,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 15.0,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_boots",
+          "weight": 5,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 15.0,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_leggings",
+          "weight": 5,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "levels": {
+                "min": 10.0,
+                "max": 15.0,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_chestplate",
+          "weight": 3,
+          "type": "minecraft:item"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "name": "pool3",
+      "entries": [
+        {
+          "value": "minecraft:chests/woodland_mansion",
+          "type": "minecraft:loot_table"
+        },
+        {
+          "value": "minecraft:chests/simple_dungeon",
+          "type": "minecraft:loot_table"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.001,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_randomly"
+        }
+      ],
+      "entries": [
+        {
+          "name": "simplyswords:iron_longsword",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:iron_twinblade",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:iron_rapier",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:iron_cutlass",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:iron_katana",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:iron_glaive",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:iron_warglaive",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:iron_spear",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:iron_sai",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:iron_claymore",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:iron_chakram",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:iron_greataxe",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:iron_greathammer",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:iron_scythe",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:iron_halberd",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:gold_longsword",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:gold_twinblade",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:gold_rapier",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:gold_cutlass",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:gold_katana",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:gold_glaive",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:gold_warglaive",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:gold_spear",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:gold_sai",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:gold_claymore",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:gold_greathammer",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:gold_chakram",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:gold_greataxe",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:gold_scythe",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:gold_halberd",
+          "type": "minecraft:item"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.004,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_randomly"
+        }
+      ],
+      "entries": [
+        {
+          "name": "simplyswords:diamond_longsword",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:diamond_twinblade",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:diamond_rapier",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:diamond_cutlass",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:diamond_katana",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:diamond_spear",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:diamond_glaive",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:diamond_warglaive",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:diamond_sai",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:diamond_claymore",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:diamond_greathammer",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:diamond_chakram",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:diamond_greataxe",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:diamond_scythe",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:diamond_halberd",
+          "type": "minecraft:item"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 1.0,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "functions": [
+        {
+          "components": {
+            "simplyswords:awakening": 0
+          },
+          "function": "minecraft:set_components"
+        }
+      ],
+      "entries": [
+        {
+          "name": "simplyswords:brimstone_claymore",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:watcher_claymore",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:storms_edge",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:stormscale",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:stormbringer",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:bramblethorn",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:watching_warglaive",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:toxic_longsword",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:emberblade",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:hearthflame",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:soulkeeper",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:twisted_blade",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:soulstealer",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:soulrender",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:soulpyre",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:frostfall",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:molten_edge",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:livyatan",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:icewhisper",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:arcanethyst",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:thunderbrand",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:mjolnir",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:slumbering_lichblade",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:shadowsting",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:dormant_relic",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:whisperwind",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:emberlash",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:waxweaver",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:hiveheart",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:stars_edge",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:wickpiercer",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:tempest",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:flamewind",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:ribboncleaver",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:caelestis",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:dawnquiver",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:riftmane",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "simplyswords:wraithfang",
+          "type": "minecraft:item"
+        }
+      ]
+    }
+  ]
+}

@@ -27,6 +27,7 @@ ServerEvents.recipes((event) => {
     { id: 'oritech:crafting/centrifuge' },
     { id: 'oritech:crafting/centrifugealt' },
     { id: 'oritech:crafting/atomicforge' },
+    { id: 'oritech:crafting/particle_collector_block' },
   ];
 
   recipes.forEach((recipe) => {

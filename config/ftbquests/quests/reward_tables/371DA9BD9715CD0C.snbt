@@ -84,11 +84,8 @@
 			count: 4
 			id: "04FD9CD0996F88F6"
 			item: {
-				components: {
-					"ftbquests:missing_item": "kubejs:ice_essence"
-				}
 				count: 1
-				id: "ftbquests:missing_item"
+				id: "kubejs:ice_essence"
 			}
 		}
 		{

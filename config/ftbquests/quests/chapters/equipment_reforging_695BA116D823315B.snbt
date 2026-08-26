@@ -1,10 +1,13 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "equipment_reforging_695BA116D823315B"
+	filename: "equipment_reforging_695ba116d823315b"
 	group: "5CF4FC955D2F2DD3"
 	id: "695BA116D823315B"
+	images: [ ]
 	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -156,7 +159,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "57825A8590117CE5"
-				item: { count: 1, id: "apotheosis:rare_material" }
+				item: { count: 1, id: "apotheosis:luminous_crystal_shard" }
 				type: "item"
 			}]
 			x: -0.675d
@@ -185,7 +188,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "63286DD35AB0B73A"
-				item: { count: 1, id: "apotheosis:epic_material" }
+				item: { count: 1, id: "apotheosis:arcane_sands" }
 				type: "item"
 			}]
 			x: -1.2750000000000001d
@@ -214,7 +217,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "67915B2B8C168D0D"
-				item: { count: 1, id: "apotheosis:mythic_material" }
+				item: { count: 1, id: "apotheosis:godforged_pearl" }
 				type: "item"
 			}]
 			x: -1.875d
@@ -289,10 +292,10 @@
 			entity_vis_size: 1.0f
 			id: "3D0087322543B31D"
 			rewards: [{
-				id: "3A39DB0AE8F39693"
+				id: "6EFBE15DEA5A92FD"
 				item: {
 					components: {
-						"ftbquests:loot_crate": "relics_cataclysm"
+						"ftbquests:loot_crate": "relics"
 					}
 					count: 1
 					id: "ftbquests:lootcrate"

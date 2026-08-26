@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "hazennstuff:blocks/runestone_slag",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "name": "main",
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "name": "hazennstuff:runestone_slag",
+              "type": "minecraft:item"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -11,6 +11,7 @@
 	id: "3F3AE4CA22BA3231"
 	images: [{
 		height: 2.0d
+		id: "7FA92FCFD12FDC00"
 		image: "kubejs:textures/quests/titles/basics_of_magic.png"
 		rotation: 0.0d
 		width: 14.0d
@@ -18,6 +19,8 @@
 		y: -13.5d
 	}]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -1378,14 +1381,9 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: false
 			id: "4281E238E86E010D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "06DA5E2D6F8EA558"
-				type: "loot"
-			}]
 			tasks: [{
-				id: "7A5EDAF52EF2F4C4"
-				item: { count: 1, id: "eidolon_repraised:avennian_sprig" }
+				id: "1511A25D56B3BD91"
+				item: { count: 1, id: "eidolon_repraised:merammer_root" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -1396,14 +1394,9 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: false
 			id: "1D92946E2522A63F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "752C8D35689EC529"
-				type: "loot"
-			}]
 			tasks: [{
-				id: "49C61B8312DAE70C"
-				item: { count: 1, id: "eidolon_repraised:merammer_root" }
+				id: "4BEB8183EE2B6918"
+				item: { count: 1, id: "eidolon_repraised:avennian_sprig" }
 				type: "item"
 			}]
 			x: 5.25d
@@ -1413,11 +1406,6 @@
 			dependencies: ["7EF9437C1043052C"]
 			entity_vis_size: 1.0f
 			id: "1AC163B06D0FFC8F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0537265D5B92144F"
-				type: "loot"
-			}]
 			tasks: [{
 				id: "4DC84662423E431E"
 				item: { count: 1, id: "eidolon_repraised:sildrian_seed" }
@@ -1431,11 +1419,6 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: false
 			id: "7B33A0B7B0475946"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "33F3C8CDF2B8ABAE"
-				type: "loot"
-			}]
 			tasks: [{
 				id: "49753AAD1654484D"
 				item: { count: 1, id: "eidolon_repraised:oanna_bloom" }
@@ -1449,11 +1432,6 @@
 			entity_vis_size: 1.0f
 			hide_dependency_lines: false
 			id: "70581D79FC865B4C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4EAD231791973DB4"
-				type: "loot"
-			}]
 			tasks: [{
 				id: "683CEFA636411E33"
 				item: { count: 1, id: "eidolon_repraised:mirecap" }
@@ -2561,31 +2539,18 @@
 			}
 			icon_scale: 2.0d
 			id: "1966555A6D4B8AC1"
-			rewards: [
-				{
-					count: 2
-					id: "752D833C1A7D0B79"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "coins2"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
+			rewards: [{
+				count: 2
+				id: "752D833C1A7D0B79"
+				item: {
+					components: {
+						"ftbquests:loot_crate": "coins2"
 					}
-					type: "item"
+					count: 1
+					id: "ftbquests:lootcrate"
 				}
-				{
-					id: "5D74B94D971B4B93"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "relics_cataclysm"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "none"
 			size: 1.0d
 			tasks: [{

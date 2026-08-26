@@ -10,6 +10,7 @@
 	id: "0DADEA55C8FE0DF1"
 	images: [{
 		height: 2.0d
+		id: "4BAA534A7C11A286"
 		image: "kubejs:textures/quests/titles/relics.png"
 		rotation: 0.0d
 		width: 6.0d
@@ -17,6 +18,8 @@
 		y: -6.25d
 	}]
 	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "name": "air_rune",
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legendary_monsters:air_rune"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "name": "volt_core",
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hazennstuff:volt_core",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4.0,
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "name": "atmospheric_boots",
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legendary_monsters:atmospheric_boots"
+        }
+      ]
+    }
+  ]
+}

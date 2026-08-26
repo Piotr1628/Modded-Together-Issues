@@ -5,14 +5,17 @@
 	group: "35D265AB28CC4B21"
 	id: "315C6FDA4B447676"
 	images: [{
-		height: 2.0d
+		height: 1.5d
+		id: "1EA718990F476970"
 		image: "kubejs:textures/quests/dwarventech.png"
 		rotation: 0.0d
 		width: 13.0d
-		x: 4.5d
-		y: -7.25d
+		x: 4.0d
+		y: -6.25d
 	}]
-	order_index: 6
+	order_index: 5
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -177,7 +180,9 @@
 				"27E73CE068DB1450"
 			]
 			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
 			id: "2A053C479B3F57AC"
+			require_sequential_tasks: false
 			rewards: [{
 				id: "6792E3CD5524A029"
 				item: {
@@ -259,7 +264,7 @@
 				item: { count: 1, id: "embers:item_vacuum" }
 				type: "item"
 			}]
-			x: 6.25d
+			x: 6.0d
 			y: -1.25d
 		}
 		{
@@ -283,7 +288,7 @@
 				type: "item"
 			}]
 			x: 5.25d
-			y: -2.5d
+			y: -2.25d
 		}
 		{
 			dependencies: ["0988171D04FD481A"]
@@ -335,8 +340,8 @@
 					type: "item"
 				}
 			]
-			x: 6.25d
-			y: -2.5d
+			x: 6.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["35260E4EA737E4CF"]
@@ -347,12 +352,13 @@
 				item: { count: 1, id: "embers:item_dropper" }
 				type: "item"
 			}]
-			x: 8.25d
+			x: 7.5d
 			y: -1.25d
 		}
 		{
 			dependencies: ["035924A00FCDBC1C"]
 			entity_vis_size: 1.5f
+			hide_until_deps_complete: true
 			icon_scale: 1.5d
 			id: "27E73CE068DB1450"
 			rewards: [{
@@ -739,7 +745,7 @@
 				item: { count: 1, id: "embers:item_dial" }
 				type: "item"
 			}]
-			x: 7.25d
+			x: 6.75d
 			y: -1.25d
 		}
 		{
@@ -751,8 +757,8 @@
 				item: { count: 1, id: "embers:fluid_dial" }
 				type: "item"
 			}]
-			x: 7.25d
-			y: -2.5d
+			x: 6.75d
+			y: -2.25d
 		}
 		{
 			dependencies: ["6A1E74CADFF0AA9B"]
@@ -820,8 +826,8 @@
 				item: { count: 1, id: "embers:heat_insulation" }
 				type: "item"
 			}]
-			x: 2.75d
-			y: 0.0d
+			x: 1.75d
+			y: -0.25d
 		}
 		{
 			dependencies: ["17E30219AD43B90C"]
@@ -866,18 +872,18 @@
 				item: { count: 1, id: "embers:atmospheric_bellows" }
 				type: "item"
 			}]
-			x: 2.75d
-			y: -2.5d
+			x: 1.75d
+			y: -2.25d
 		}
 		{
 			dependencies: ["0BAB3697515D88AA"]
 			entity_vis_size: 1.0f
 			id: "4D6AD7E9874B925B"
 			rewards: [{
-				id: "45FA0614FC718D72"
+				id: "1A1BC6D7D52488E2"
 				item: {
 					components: {
-						"ftbquests:loot_crate": "createaero"
+						"ftbquests:loot_crate": "ember"
 					}
 					count: 1
 					id: "ftbquests:lootcrate"
@@ -919,6 +925,17 @@
 			dependencies: ["3051664621545003"]
 			entity_vis_size: 1.0f
 			id: "1A5DFE336371C775"
+			rewards: [{
+				id: "30EAD6B02E1A72D0"
+				item: {
+					components: {
+						"ftbquests:loot_crate": "ember"
+					}
+					count: 1
+					id: "ftbquests:lootcrate"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "70C5832889B4B741"
@@ -1028,10 +1045,10 @@
 			entity_vis_size: 1.0f
 			id: "7476CFA6F3CBB2A1"
 			rewards: [{
-				id: "6DA1B5F7AAD2ABB9"
+				id: "416755D50F15FBD4"
 				item: {
 					components: {
-						"ftbquests:loot_crate": "augments"
+						"ftbquests:loot_crate": "ember"
 					}
 					count: 1
 					id: "ftbquests:lootcrate"
@@ -1071,10 +1088,10 @@
 			entity_vis_size: 1.0f
 			id: "14E60E330EDADB98"
 			rewards: [{
-				id: "46DA9A11E3E7C081"
+				id: "0B76A5BCA99E899A"
 				item: {
 					components: {
-						"ftbquests:loot_crate": "augments"
+						"ftbquests:loot_crate": "ember"
 					}
 					count: 1
 					id: "ftbquests:lootcrate"
@@ -1094,10 +1111,10 @@
 			entity_vis_size: 1.0f
 			id: "39420EB06038CF34"
 			rewards: [{
-				id: "11EAB10ADF4CB96C"
+				id: "5F0331E66E78E1AB"
 				item: {
 					components: {
-						"ftbquests:loot_crate": "augments"
+						"ftbquests:loot_crate": "ember"
 					}
 					count: 1
 					id: "ftbquests:lootcrate"
@@ -1117,10 +1134,10 @@
 			entity_vis_size: 1.0f
 			id: "25DCBCA3E08B26FC"
 			rewards: [{
-				id: "21AF81C6E7CBB33A"
+				id: "68D30FDBB6AEF477"
 				item: {
 					components: {
-						"ftbquests:loot_crate": "augments"
+						"ftbquests:loot_crate": "ember"
 					}
 					count: 1
 					id: "ftbquests:lootcrate"
@@ -1140,10 +1157,10 @@
 			entity_vis_size: 1.0f
 			id: "753437BA2894E339"
 			rewards: [{
-				id: "0B4D0EC2D777CB16"
+				id: "5224E4B4872FBD7A"
 				item: {
 					components: {
-						"ftbquests:loot_crate": "augments"
+						"ftbquests:loot_crate": "ember"
 					}
 					count: 1
 					id: "ftbquests:lootcrate"

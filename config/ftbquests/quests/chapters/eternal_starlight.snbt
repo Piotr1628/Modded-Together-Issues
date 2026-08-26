@@ -10,6 +10,7 @@
 	id: "266542F91BB9BC6E"
 	images: [{
 		height: 2.0d
+		id: "4E39B80C05A7328F"
 		image: "kubejs:textures/quests/titles/eternal_starlight.png"
 		rotation: 0.0d
 		width: 16.0d
@@ -17,6 +18,8 @@
 		y: -6.0d
 	}]
 	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [
 		{
 			id: "59C2D75D9BFC6A80"

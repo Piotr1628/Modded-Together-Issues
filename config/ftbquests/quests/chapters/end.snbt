@@ -11,6 +11,7 @@
 	id: "487BB3D242C6D1AA"
 	images: [{
 		height: 2.0d
+		id: "62B09EF047622D2B"
 		image: "kubejs:textures/quests/titles/the_end.png"
 		rotation: 0.0d
 		width: 11.0d
@@ -18,6 +19,8 @@
 		y: -6.0d
 	}]
 	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

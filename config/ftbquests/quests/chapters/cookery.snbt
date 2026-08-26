@@ -15,6 +15,7 @@
 	images: [
 		{
 			height: 5.0d
+			id: "21A4FC0F0E25144A"
 			image: "kubejs:textures/quests/food/area_render_10_.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -23,6 +24,7 @@
 		}
 		{
 			height: 5.0d
+			id: "3FF1863206B5E747"
 			image: "kubejs:textures/quests/food/area_render_11_.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -31,6 +33,7 @@
 		}
 		{
 			height: 5.0d
+			id: "39C545C4E939EA77"
 			image: "kubejs:textures/quests/food/area_render_12_.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -39,6 +42,7 @@
 		}
 		{
 			height: 5.0d
+			id: "7C0480218547A6A1"
 			image: "kubejs:textures/quests/food/area_render_2_.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -47,6 +51,7 @@
 		}
 		{
 			height: 5.0d
+			id: "7BE4E97D4CC78B18"
 			image: "kubejs:textures/quests/food/area_render_3_.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -55,6 +60,7 @@
 		}
 		{
 			height: 5.0d
+			id: "1D9EB967267BFBB6"
 			image: "kubejs:textures/quests/food/area_render_5_.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -63,6 +69,7 @@
 		}
 		{
 			height: 5.0d
+			id: "00C7BBA9BCC5A355"
 			image: "kubejs:textures/quests/food/area_render_7_.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -71,6 +78,7 @@
 		}
 		{
 			height: 5.0d
+			id: "3C6C403311333FF8"
 			image: "kubejs:textures/quests/food/area_render_8_.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -79,6 +87,7 @@
 		}
 		{
 			height: 5.0d
+			id: "665F34342BDDDD5F"
 			image: "kubejs:textures/quests/food/area_render_9_.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -87,6 +96,7 @@
 		}
 		{
 			height: 5.0d
+			id: "2AFD21523F4F8F14"
 			image: "kubejs:textures/quests/food/area_render_4_.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -95,6 +105,7 @@
 		}
 		{
 			height: 2.0d
+			id: "07F02A96D3E204E7"
 			image: "kubejs:textures/quests/titles/culinary_arts.png"
 			rotation: 0.0d
 			width: 14.0d
@@ -103,6 +114,8 @@
 		}
 	]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{

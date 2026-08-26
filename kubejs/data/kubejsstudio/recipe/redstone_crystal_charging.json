@@ -1,0 +1,15 @@
+{
+  "ingredients": [
+    {
+      "item": "appflux:redstone_crystal"
+    }
+  ],
+  "results": [
+    {
+      "id": "appflux:charged_redstone"
+    }
+  ],
+  "energy": 10000,
+  "max_charge_rate": 200,
+  "type": "createaddition:charging"
+}

@@ -13,7 +13,7 @@
 		string_id: "food"
 	}
 	loot_size: 1
-	order_index: 26
+	order_index: 25
 	rewards: [
 		{ id: "65BDA35EF260101B", item: { count: 1, id: "lendersdelight:ender_blood_glazed_maledictus_heart" } }
 		{ id: "4871402674443728", item: { count: 1, id: "lendersdelight:honey_glazed_horn" } }
